@@ -7,3 +7,10 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+pust 'Cadastrando a base de dados inicial'
+
+Author.create(first_name: 'Stephen', last_name: 'King')
+Author.create(first_name: 'Stephen', last_name: 'Hawking')
+
+
