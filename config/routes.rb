@@ -3,8 +3,8 @@ Rails.application.routes.draw do
   root to: 'site#index'
   resources :authors
   resources :posts
+   
   
-  
-  #get "up" => "rails/health#show", as: :rails_health_check
+  get "up" => "rails/health#show", as: :rails_health_check
   
 end

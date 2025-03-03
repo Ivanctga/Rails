@@ -1,28 +1,37 @@
 class PostsController < ApplicationController
   layout 'post'
-  before_action :set_post, only: %i[ show edit update destroy ]
+  before_action :set_post, only: %i[show edit update destroy]
   def index
     @posts = Post.all
     render layout: 'application'
   end
 
-  def show
-   
+  def show   
   end
 
   def new
-    @post = Post.new
-    
+    @post = Post.new    
   end
 
-  def edit
-    
+  def edit    
   end
 
   def create
+    @post = Post.new(post_params)
+    
+    if @post.save
+      redirect_to '/posts'
+    else
+      render :new
+    end
   end
 
-  def update  
+  def update 
+    if @post.update(post_params)
+      redirect_to '/posts' 
+    else
+      render :edit
+    end
   end
 
   def destroy
@@ -30,6 +39,10 @@ class PostsController < ApplicationController
 
 
   private
+
+  def post_params
+    params.require(:post).permit(:title, :content, :publish_at, :author_id)
+  end
   def set_post
     @post = Post.find(params[:id])
   end
