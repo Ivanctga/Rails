@@ -1,0 +1,19 @@
+current directory: /home/ivan/Área de trabalho/Projetos/Rails/blog/vendor/bundle/ruby/3.4.0/gems/debug-1.10.0/ext/debug
+/home/ivan/.rbenv/versions/3.4.1/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/ivan/Área de trabalho/Projetos/Rails/blog/vendor/bundle/ruby/3.4.0/gems/debug-1.10.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20250303-8813-wvud4j sitelibdir\=./.gem.20250303-8813-wvud4j clean
+
+current directory: /home/ivan/Área de trabalho/Projetos/Rails/blog/vendor/bundle/ruby/3.4.0/gems/debug-1.10.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20250303-8813-wvud4j sitelibdir\=./.gem.20250303-8813-wvud4j
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/ivan/Área de trabalho/Projetos/Rails/blog/vendor/bundle/ruby/3.4.0/gems/debug-1.10.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20250303-8813-wvud4j sitelibdir\=./.gem.20250303-8813-wvud4j install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20250303-8813-wvud4j/debug
+
+current directory: /home/ivan/Área de trabalho/Projetos/Rails/blog/vendor/bundle/ruby/3.4.0/gems/debug-1.10.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20250303-8813-wvud4j sitelibdir\=./.gem.20250303-8813-wvud4j clean
