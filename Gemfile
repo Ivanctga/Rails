@@ -5,7 +5,7 @@ gem "rails", "~> 8.0.1"
 
 gem 'sidekiq', '~> 7.0'
 
-gem 'sidekiq-cron', '~> 1.1'
+gem 'sidekiq-cron', '~> 2.1'
 # The modern asset pipeline for Rails [https://github.com/rails/propshaft]
 gem "propshaft"
 # Use sqlite3 as the database for Active Record
