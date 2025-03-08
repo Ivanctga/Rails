@@ -1,0 +1,18 @@
+current directory: /home/ivan/Área de trabalho/Projetos/Rails/blog/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+/home/ivan/.rbenv/versions/3.4.1/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/ivan/Área de trabalho/Projetos/Rails/blog/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250303-8813-2tg75o sitelibdir\=./.gem.20250303-8813-2tg75o clean
+
+current directory: /home/ivan/Área de trabalho/Projetos/Rails/blog/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250303-8813-2tg75o sitelibdir\=./.gem.20250303-8813-2tg75o
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/ivan/Área de trabalho/Projetos/Rails/blog/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250303-8813-2tg75o sitelibdir\=./.gem.20250303-8813-2tg75o install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20250303-8813-2tg75o/racc
+
+current directory: /home/ivan/Área de trabalho/Projetos/Rails/blog/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250303-8813-2tg75o sitelibdir\=./.gem.20250303-8813-2tg75o clean
