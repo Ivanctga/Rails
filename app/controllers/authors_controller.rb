@@ -1,6 +1,6 @@
 class AuthorsController < ApplicationController
   before_action :set_author, only: %i[ show edit update destroy ]
-
+  
   # GET /authors or /authors.json
   def index
     @authors = Author.all
@@ -65,6 +65,6 @@ class AuthorsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def author_params
-      params.expect(author: [ :first_name, :last_name, :description ])
+      params.require(:author).permit(:first_name, :last_name, :description, :avatar, photos: [])
     end
 end

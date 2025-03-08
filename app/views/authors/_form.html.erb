@@ -11,20 +11,31 @@
     </div>
   <% end %>
 
+  <div class="field">
+    <%= form.label :avatar %>
+    <%= form.file_field :avatar %>
+  </div> <br> 
+
+
   <div>
     <%= form.label :first_name, style: "display: block" %>
     <%= form.text_field :first_name %>
-  </div>
+  </div><br>
 
   <div>
     <%= form.label :last_name, style: "display: block" %>
     <%= form.text_field :last_name %>
-  </div>
+  </div><br>
 
   <div>
     <%= form.label :description, style: "display: block" %>
     <%= form.text_field :description %>
-  </div>
+  </div><br>
+
+  <div class="field">
+    <%= form.label :photos %>
+    <%= form.file_field :photos, multiple: true %>
+  </div> <br>
 
   <div>
     <%= form.submit %>
